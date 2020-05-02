@@ -37,4 +37,10 @@ class Counter extends Component {
 	}  
 }
 
+Counter.propTypes = {
+  value: PropTypes.number.isRequired, 
+  onDecrement: PropTypes.func.isRequired,
+  onIncrement: PropTypes.func.isRequired
+}
+
 export default Counter
