@@ -1,4 +1,4 @@
-Simple React-Redux example
+# Simple React-Redux example
 
 Let's build a counter application using React and Redux.
 
